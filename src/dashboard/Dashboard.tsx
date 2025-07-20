@@ -45,17 +45,17 @@ export default function Dashboard() {
 
         <div className="grid grid-cols-1 xl:grid-cols-3 gap-8">
           <div className="xl:col-span-1 bg-white/90 p-6 rounded-3xl shadow-2xl">
-            <h2 className="text-deep-night text-xl font-bold mb-4">Impresiones por Marca</h2>
+            <h2 className="text-deep-night text-xl font-bold mb-4">Top Inversión</h2>
             <PieChart data={pie} />
           </div>
 
           <div className="xl:col-span-2 bg-white/90 p-6 rounded-3xl shadow-2xl">
-            <h2 className="text-deep-night text-xl font-bold mb-4">Impresiones por Tipo y Marca</h2>
+            <h2 className="text-deep-night text-xl font-bold mb-4">Tipos de contenido</h2>
             <StackedBarChart data={stacked} />
           </div>
 
           <div className="xl:col-span-3 bg-white/90 p-6 rounded-3xl shadow-2xl">
-            <h2 className="text-deep-night text-xl font-bold mb-4">Evolución Diaria de Impresiones</h2>
+            <h2 className="text-deep-night text-xl font-bold mb-4">Inversión diaria</h2>
             <LineChart data={line} />
           </div>
         </div>
